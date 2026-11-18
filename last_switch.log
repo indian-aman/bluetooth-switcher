@@ -1,0 +1,22 @@
+﻿=== Switching to USB Bluetooth (2026-11-16T21:03:01.5494742+05:30) ===
+1. Disabling built-in Intel(R) Wireless Bluetooth(R) (using /force because a Bluetooth mouse 'Toad 8' is attached)...
+Microsoft PnP Utility
+
+Disabling device:          USB\VID_8087&PID_0AAA\5&365d97bd&0&14
+Device disabled successfully.
+2. Resetting USB Realtek Bluetooth Adapter to clear Code 31...
+Microsoft PnP Utility
+
+Disabling device:          USB\VID_0BDA&PID_C820&MI_00\6&1d92df5b&0&0000
+Device disabled successfully.
+Microsoft PnP Utility
+
+Enabling device:          USB\VID_0BDA&PID_C820&MI_00\6&1d92df5b&0&0000
+Device enabled successfully.
+--- Final Adapter State ---
+
+Status          Problem FriendlyName                   InstanceId                                   
+------          ------- ------------                   ----------                                   
+Error  CM_PROB_DISABLED Intel(R) Wireless Bluetooth(R) USB\VID_8087&PID_0AAA\5&365D97BD&0&14        
+OK         CM_PROB_NONE Realtek Bluetooth Adapter      USB\VID_0BDA&PID_C820&MI_00\6&1D92DF5B&0&0000
+[SUCCESS] Realtek USB Bluetooth Adapter is OK.
